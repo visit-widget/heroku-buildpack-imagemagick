@@ -2,7 +2,7 @@
 # bin/compile BUILD_DIR CACHE_DIR ENV_DIR
 
 set -e            # fail fast
-set -o nounset    # fail on unset variables
+# set -o nounset    # fail on unset variables
 
 indent() {
   sed -u 's/^/       /'
