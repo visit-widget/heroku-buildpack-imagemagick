@@ -63,4 +63,4 @@ echo "export PATH=$ACTUAL_INSTALL_PATH/bin:\$PATH" >> $PROFILE_PATH
 echo "export LD_LIBRARY_PATH=$ACTUAL_INSTALL_PATH/lib:\$LD_LIBRARY_PATH" >> $PROFILE_PATH
 
 mkdir $BUILD_DIR/.magick
-cp -rf $VENDOR_DIR/imagemagick/etc/ImageMagick-6/* $BUILD_DIR/.magick/
+cp -rf $VENDOR_DIR/imagemagick/etc/ImageMagick-7/* $BUILD_DIR/.magick/
